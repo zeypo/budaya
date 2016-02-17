@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <% include ../partials/header.ejs %>
+  <% include ../partials/header.html %>
 </head>
 
 <body>
-    <h1>Hello World.</h1>
+    <img class="background-right" src="images/background-right.png" />
+    <div class="wrapper">
+        <img src="images/logo.png" alt="Logo budaya" class="logo" />
+        <h1>Apprendre en s'amusant</h1>
+        <span class="separation"></span>
+        <p>Notre solution Histokid arrive bientôt, restez informé !</p>
+        <form id="form-email">
+            <input type="text"  class="email-value" name="name" placeholder="exemple@me.com">
+            <span class="validation"><img src="images/check.png" alt="Valider"/></span>
+        </form>
+
+        <div class="error-message-wrapper">Merci de rentrer un mail valide</div>
+
+        <div class="validate-message-wrapper">
+            <div class="validate-message">Merci ! Promis, vous ne le regretterez pas.</div>
+        </div>
+
+        <p>
+            En attendant, rejoignez nous sur
+            <a href="https://www.facebook.com/jeux.budaya" class="facebook-like" target="_blank"><img src="images/facebook.png" alt="facebbok" /></a>
+        </p>
+    </div>
 </body>
 </html>
