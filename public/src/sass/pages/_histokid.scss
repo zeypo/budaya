@@ -1,0 +1,48 @@
+.product {
+
+    text-align: center;
+    background: #f7f7f7;
+
+    h2 {
+        margin-top: $spacing-large;
+        margin-bottom: $spacing-large;
+    }
+
+    .product {
+        text-align: left;
+    }
+
+    .packaging {
+        text-align: center;
+    }
+
+    .product-desc {
+        p {
+            margin-bottom: $spacing-medium;
+        }
+
+        .list-title {
+            margin-bottom: 5px;
+        }
+    }
+
+    ul {
+        padding-left: $spacing-medium;
+    }
+
+    .price {
+        font-size: 21px;
+        margin-top: $spacing-medium;
+
+    }
+
+}
+
+.univers {
+    text-align: center;
+
+    img {
+        width: calc(20% - 20px);
+        margin-left: 20px;
+    }
+}

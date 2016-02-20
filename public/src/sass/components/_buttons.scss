@@ -1,0 +1,21 @@
+.btn {
+    padding: 15px 20px;
+    color: #fff;
+    background-color: $color-positive;
+    border-radius: $border-radius;
+    text-decoration: none;
+    display: inline-block;
+    cursor:pointer;
+}
+
+.btn-empty {
+    background-color: transparent;
+    border: 1px solid $color-brand;
+    color: $color-brand;
+    transition: $transition;
+
+    &:hover {
+        background-color: $color-brand;
+        color: #fff;
+    }
+}

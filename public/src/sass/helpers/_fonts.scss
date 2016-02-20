@@ -1,0 +1,158 @@
+// Fontsquirel
+@font-face {
+    font-family: 'bariolregular';
+    src: url('../fonts/bariol-webfont.eot');
+    src: url('../fonts/bariol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bariol-webfont.woff2') format('woff2'),
+         url('../fonts/bariol-webfont.woff') format('woff'),
+         url('../fonts/bariol-webfont.ttf') format('truetype'),
+         url('../fonts/bariol-webfont.svg#bariolregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'helv_childrenregular';
+    src: url('../fonts/helv_children-webfont.eot');
+    src: url('../fonts/helv_children-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helv_children-webfont.woff2') format('woff2'),
+         url('../fonts/helv_children-webfont.woff') format('woff'),
+         url('../fonts/helv_children-webfont.ttf') format('truetype'),
+         url('../fonts/helv_children-webfont.svg#helv_childrenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+// Icomoon
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?u3hvpb');
+    src:    url('../fonts/icomoon.eot?u3hvpb#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?u3hvpb') format('truetype'),
+        url('../fonts/icomoon.woff?u3hvpb') format('woff'),
+        url('../fonts/icomoon.svg?u3hvpb#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-logo .path1:before {
+    content: "\e904";
+    color: rgb(255, 255, 255);
+}
+.icon-logo .path2:before {
+    content: "\e905";
+    margin-left: -0.8896484375em;
+    color: rgb(255, 255, 255);
+}
+.icon-logo .path3:before {
+    content: "\e906";
+    margin-left: -0.8896484375em;
+    color: rgb(255, 255, 255);
+}
+.icon-logo .path4:before {
+    content: "\e907";
+    margin-left: -0.8896484375em;
+    color: rgb(255, 255, 255);
+}
+.icon-logo .path5:before {
+    content: "\e908";
+    margin-left: -0.8896484375em;
+    color: rgb(255, 255, 255);
+}
+.icon-logo .path6:before {
+    content: "\e909";
+    margin-left: -0.8896484375em;
+    color: rgb(255, 255, 255);
+}
+.icon-logo .path7:before {
+    content: "\e90a";
+    margin-left: -0.8896484375em;
+    color: rgb(73, 119, 219);
+}
+.icon-logo .path8:before {
+    content: "\e90b";
+    margin-left: -0.8896484375em;
+    color: rgb(73, 119, 219);
+}
+.icon-logo .path9:before {
+    content: "\e90c";
+    margin-left: -0.8896484375em;
+    color: rgb(73, 119, 219);
+}
+.icon-logo .path10:before {
+    content: "\e90d";
+    margin-left: -0.8896484375em;
+    color: rgb(73, 119, 219);
+}
+.icon-logo .path11:before {
+    content: "\e90e";
+    margin-left: -0.8896484375em;
+    color: rgb(73, 119, 219);
+}
+.icon-logo .path12:before {
+    content: "\e90f";
+    margin-left: -0.8896484375em;
+    color: rgb(73, 119, 219);
+}
+.icon-logo .path13:before {
+    content: "\e910";
+    margin-left: -0.8896484375em;
+    color: rgb(255, 255, 255);
+}
+.icon-logo .path14:before {
+    content: "\e911";
+    margin-left: -0.8896484375em;
+    color: rgb(255, 255, 255);
+}
+.icon-logo .path15:before {
+    content: "\e912";
+    margin-left: -0.8896484375em;
+    color: rgb(255, 255, 255);
+}
+.icon-logo .path16:before {
+    content: "\e913";
+    margin-left: -0.8896484375em;
+    color: rgb(255, 255, 255);
+}
+.icon-logo .path17:before {
+    content: "\e914";
+    margin-left: -0.8896484375em;
+    color: rgb(255, 255, 255);
+}
+.icon-logo .path18:before {
+    content: "\e915";
+    margin-left: -0.8896484375em;
+    color: rgb(255, 255, 255);
+}
+.icon-facebook:before {
+    content: "\e900";
+}
+.icon-right:before {
+    content: "\e901";
+}
+.icon-left:before {
+    content: "\e902";
+}
+.icon-twitter:before {
+    content: "\e903";
+}

@@ -1,0 +1,72 @@
+.presentation {
+    background: $color-bg-light;
+    padding-bottom: 0;
+    font-size: 21px;
+    line-height: 26px;
+
+    .histokid-logo {
+        width: 100%;
+        max-width: 500px;
+        margin-bottom: $spacing-medium;
+    }
+
+    p {
+        margin-bottom: $spacing-medium;
+    }
+}
+
+.our-project {
+    background: #fff url('../images/fond-partie-2.png') no-repeat bottom right;
+
+    .btn {
+        margin-top: $spacing-medium;
+    }
+}
+
+.contact-us {
+    background-color: $color-brand;
+    color : #fff;
+    text-align: center;
+
+    h2 {
+        font-size: 24px;
+        color : #fff;
+        letter-spacing: 1px;
+    }
+}
+
+.team {
+    text-align: center;
+
+    .carroussel {margin-top: $spacing-medium; color: $color-brand;}
+
+    .slick-arrow {
+        position: absolute;
+        margin-top: -20px;
+        top: 50%;
+        font-size: 25px;
+        color: $color-brand;
+        cursor: pointer;
+    }
+
+    .team-partner-title {
+        width:250px;
+        font-size: 21px;
+        margin-top: 15px;
+        font-family: $fonts-face-brand;
+    }
+
+    .team-partner-desc {
+        width:250px;
+        font-size: 14px;
+    }
+
+    .slick-list {width: 80%; margin-left:10%;}
+    .icon-left { left: 20px; }
+    .icon-right { right: 20px; }
+
+    .btn {
+        margin-left: -40px;
+        margin-top: $spacing-medium;
+    }
+}

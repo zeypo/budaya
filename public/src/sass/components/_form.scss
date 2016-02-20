@@ -1,0 +1,42 @@
+input {
+    background-color: #fff;
+    padding: 16px;
+    border-width: 0;
+    color: #4977db;
+    font-size: 16px;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+    top: -3px;
+}
+
+*:focus {
+    outline: none;
+}
+
+.validation {
+    padding: 13px;
+    background-color: #64C58C;
+    display: inline-block;
+    position: relative;
+    left: -4px;
+    padding-bottom: 13px;
+    cursor: pointer;
+}
+
+.label-protection {
+    display: block;
+    margin-bottom: 10px;
+
+    label {
+        width: 150px;
+        display: block;
+        float: left;
+    }
+
+    input {
+        border:1px solid $color-bg-light;
+        padding: 10px;
+        width: calc(100% - 150px;);
+    }
+}

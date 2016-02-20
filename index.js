@@ -14,6 +14,18 @@ app.get('/', function(request, response) {
   response.render('pages/index');
 });
 
+app.get('/histokid', function(request, response) {
+  response.render('pages/histokid');
+});
+
+app.get('/equipe', function(request, response) {
+  response.render('pages/our-team');
+});
+
+app.get('/press', function(request, response) {
+  response.render('pages/press');
+});
+
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });

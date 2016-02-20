@@ -1,0 +1,89 @@
+body {
+    font-family: $fonts-face-base;
+    color: $color-font-base;
+    font-size: $font-size-base;
+    line-height: $font-line-base;
+}
+
+ul, p {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    color: $color-brand;
+    font-size: $font-size-title;
+    line-height: 55px;
+    margin-bottom: $spacing-medium;
+}
+
+/**
+ * Wrapper
+ */
+.wrapper {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.container {
+    padding: $spacing-large 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.aside-image {
+    margin-top: -#{$spacing-large};
+
+    img {
+        max-width: 120%;
+    }
+}
+
+.aside-image-right {
+    left: 50%;
+}
+
+.aside-image-left {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 450px;
+}
+
+/**
+ * Logo
+ */
+.logo {
+    color: inherit;;
+    font-family: $fonts-face-brand;
+    font-size: $font-size-base;
+}
+
+/**
+ * Surcourche de la grille
+ */
+.grid__col--no-padding {
+    padding-left: 0;
+}
+
+.grid__col--maxheight {
+    height:100%;
+    overflow:scroll;
+}
+
+/**
+ * Utils
+ */
+.background-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+}
+
+.background-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+}

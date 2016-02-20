@@ -1,0 +1,90 @@
+.team-page-prez {
+    background: $color-brand;
+    color: #fff;
+    font-size: 21px;
+    line-height: 30px;
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    .team-page-prez-logo {
+        text-align: center;
+    }
+
+    .team-page-prez-text {
+        margin-top: $spacing-large;
+    }
+}
+
+.our-philosophy {
+    text-align: center;
+    color: $color-brand;
+
+    h2 {
+        margin-bottom: $spacing-large;
+    }
+
+    .section-number {
+        display: inline-block;
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        background: $color-brand;
+        color: #fff;
+        font-family: $fonts-face-brand;
+        border-radius: 50%;
+        font-size: 40px;
+        margin-bottom: $spacing-medium;
+    }
+}
+
+.team-page-team {
+    background-color: #f7f7f7;
+
+    h2 {
+        text-align: center;
+        margin-bottom: $spacing-large;
+    }
+
+    .carroussel-team {margin-top: $spacing-medium; color: $color-brand;}
+
+    .slick-arrow {
+        position: absolute;
+        margin-top: -20px;
+        top: 50%;
+        font-size: 25px;
+        color: $color-brand;
+        cursor: pointer;
+    }
+
+    .team-page-team-photo {
+        font-size: 21px;
+        text-align: center;
+
+        img {
+            width:180px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+    }
+    .slick-list {width: 80%; margin-left:10%;}
+
+    .icon-left { left: 20px; }
+
+    .icon-right { right: 20px; }
+
+    .team-page-team-text ul {
+        margin-left: 20px;
+        font-weight: 800;
+        margin-top: 79px;
+
+        li {list-style-type: none;}
+
+        .question {
+            margin-right: 10px;
+            display: inline-block;
+            font-weight: 400;
+        }
+    }
+}

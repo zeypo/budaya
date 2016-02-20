@@ -1,0 +1,20 @@
+.press {
+    h2 {
+        text-align: center;
+        margin-bottom: $spacing-large;
+    }
+
+    form {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .btn-protection {
+        text-align: center;
+    }
+
+    .btn {
+        width: auto;
+        margin-top: $spacing-medium;
+    }
+}

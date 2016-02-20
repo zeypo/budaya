@@ -1,31 +1,111 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <% include ../partials/header.html %>
-</head>
+    <head>
+      <% include ../partials/header.html %>
+    </head>
 
-<body>
-    <img class="background-right" src="images/background-right.png" />
-    <div class="wrapper">
-        <img src="images/logo.png" alt="Logo budaya" class="logo" />
-        <h1>Apprendre en s'amusant</h1>
-        <span class="separation"></span>
-        <p>Notre solution Histokid arrive bientôt, restez informé !</p>
-        <form id="form-email">
-            <input type="text"  class="email-value" name="name" placeholder="exemple@me.com">
-            <span class="validation"><img src="images/check.png" alt="Valider"/></span>
-        </form>
+    <body>
 
-        <div class="error-message-wrapper">Merci de rentrer un mail valide</div>
+        <% include ../partials/navigation.html %>
 
-        <div class="validate-message-wrapper">
-            <div class="validate-message">Merci ! Promis, vous ne le regretterez pas.</div>
+        <!-- INTRODUCTION -->
+        <div class="container presentation">
+            <div class="wrapper">
+                <div class="grid">
+                    <div class="grid__col grid__col--1-of-2">
+                        <img src="images/logo_histokid.png" alt="Histokid" class="histokid-logo"/>
+                        <p>Partez à la conquête de l'Histoire avec vos enfants !</p>
+                        <p>Du Règne des Dinosaures au Temps des Chevaliers, en passant par le royaume des Pharaons, embarquez vos enfants à travers des univers interactifs et ludiques qui leur feront vivre l'Histoire avec un grand H.</p>
+                    </div>
+                    <div class="grid__col grid__col--1-of-2">
+                        <div class="aside-image aside-image-right">
+                            <img src="images/img-fond-partie-1.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <p>
-            En attendant, rejoignez nous sur
-            <a href="https://www.facebook.com/jeux.budaya" class="facebook-like" target="_blank"><img src="images/facebook.png" alt="facebbok" /></a>
-        </p>
-    </div>
-</body>
+        <!-- NOTRE PROJET -->
+        <div class="container our-project">
+            <div class="aside-image aside-image-left">
+                <img src="images/img-fond-partie-2.png" />
+            </div>
+            <div class="wrapper">
+                <div class="grid">
+                    <div class="grid__col grid__col--1-of-2"></div>
+                    <div class="grid__col grid__col--1-of-2">
+                        <h2>Notre solution</h2>
+                        <p>C'est un jeu à la fois ludique et éducatif. En jouant avec les figurines sur le plateau, les enfants vont découvrir une nouvelle façon d'apprendre en s'amusant.</p>
+
+                        <a href="/histokid" class="btn">Curieux ? Découvrez Histokid !</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTACT  -->
+        <div class="container contact-us">
+            <div class="wrapper">
+                <div class="grid">
+                        <h2>Le projet vous interesse ? Restez informé</h2>
+
+                        <form id="form-email">
+                            <input type="text"  class="email-value" name="name" placeholder="exemple@me.com">
+                            <span class="validation"><img src="images/check.png" alt="Valider"/></span>
+                        </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- L'EQUIPE -->
+        <div class="container team">
+            <div class="wrapper">
+                <div class="grid">
+                    <div class="grid__col grid__col--2-of-2">
+                        <h2>L'équipe budaya</h2>
+
+                        <div class="carroussel">
+                            <div>
+                                <img src="images/img-equipe/amelia.png" alt="La phtot d'amélia enfant" />
+                                <p class="team-partner-title">Amelia</p>
+                                <p class="team-partner-desc">Je fais des coloriages (mais je dépasse pas !)</p>
+                            </div>
+                            <div>
+                                <img src="images/img-equipe/camille.png" alt="La phtot de camille enfant" />
+                                <p class="team-partner-title">Camille</p>
+                                <p class="team-partner-desc">Je parle tout le temps (mais j'écoute aussi !)</p>
+                            </div>
+                            <div>
+                                <img src="images/img-equipe/charlene.png" alt="La phtot de charlène enfant" />
+                                <p class="team-partner-title">Charlene</p>
+                                <p class="team-partner-desc">Je joue à la chef (mais une gentille chef, hein)</p>
+                            </div>
+                            <div>
+                                <img src="images/img-equipe/eric.png" alt="La phtot d'eric enfant" />
+                                <p class="team-partner-title">Eric</p>
+                                <p class="team-partner-desc">Je parle une autre langue (mais personne comprend)</p>
+                            </div>
+                            <div>
+                                <img src="images/img-equipe/jessica.png" alt="La phtot de jessica enfant" />
+                                <p class="team-partner-title">Jessica</p>
+                                <p class="team-partner-desc">Je parle tout le temps (mais j'écoute aussi !)</p>
+                            </div>
+                            <div>
+                                <img src="images/img-equipe/nafi.png" alt="La phtot de nafi enfant" />
+                                <p class="team-partner-title">Nafi</p>
+                                <p class="team-partner-desc">Je joue aux Kapla (mais ça tombe jamais !)</p>
+                            </div>
+                        </div>
+
+                        <a href="/equipe" class="btn btn-empty">Envie de nous connaître ?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  FOOTER -->
+        <% include ../partials/footer.html %>
+
+    </body>
 </html>

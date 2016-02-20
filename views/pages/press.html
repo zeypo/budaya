@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <% include ../partials/header.html %>
+    </head>
+
+    <body>
+
+        <% include ../partials/navigation.html %>
+
+        <div class="container press">
+            <div class="wrapper">
+                <h2>Press</h2>
+                <form>
+                    <div class="label-protection">
+                        <label for="lastname">Nom :</label>
+                        <input type="text" name="lastname">
+                    </div>
+                    <div class="label-protection">
+                        <label for="firstname">Prénom :</label>
+                        <input type="text" name="firstname">
+                    </div>
+                    <div class="label-protection">
+                        <label for="email">Mail :</label>
+                        <input type="text" name="email">
+                    </div>
+                    <div class="label-protection">
+                        <label for="society">Entreprise :</label>
+                        <input type="text" name="society">
+                    </div>
+                    <div class="label-protection">
+                        <label for="job">Poste :</label>
+                        <input type="text" name="job">
+                    </div>
+
+                    <div class="btn-protection">
+                        <input type="submit" class="btn" value="Recevoir le comuniqué">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!--  FOOTER -->
+        <% include ../partials/footer.html %>
+
+    </body>
+</html>
