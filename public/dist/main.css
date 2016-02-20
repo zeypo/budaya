@@ -777,6 +777,9 @@ input {
   .footer .logo-footer {
     height: 120px;
     margin-top: 25px; }
+  .footer a {
+    color: #fff;
+    text-decoration: none; }
 
 .presentation {
   background: #dee2e3;

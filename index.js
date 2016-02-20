@@ -22,7 +22,7 @@ app.get('/equipe', function(request, response) {
   response.render('pages/our-team');
 });
 
-app.get('/press', function(request, response) {
+app.get('/presse', function(request, response) {
   response.render('pages/press');
 });
 
