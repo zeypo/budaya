@@ -20,4 +20,13 @@ $(function() {
     };
     $('.carroussel-team').slick(carrousselTeamOpts);
 
+
+    // Gestion du formulaire
+    $('.pres-form').on('submit', function(e) {
+
+        e.preventDefault();
+
+        window.open('/dist/dossier%20de%20presse%20budaya.pdf');
+
+    });
 });
